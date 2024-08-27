@@ -18,6 +18,6 @@ for app in "${brew_apps[@]}"; do
     brew install $app
 done
 
-echo "now installing pip packages...."
+echo "Now installing pip packages...."
 pip3 install SpeechRecognition
 pip3 install pocketsphinx
